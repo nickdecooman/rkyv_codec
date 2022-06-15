@@ -28,6 +28,3 @@ lazy_static = "1.4.0"
 default = ["futures_stream", "std"]
 std = []
 futures_stream = ["futures_codec", "bytes-old"]
-
-[workspace]
-members = ["examples/no-std"]
